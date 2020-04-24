@@ -12,8 +12,7 @@ typedef enum {
 } TokenKind;
 
 void error_at(char*,char* fmt,...);
-typedef struct Token Token;
-
+typedef struct Token Token;	// main parse
 
 struct Token {
 	TokenKind kind;
